@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Lettre_1
+  - Lettre_2
+  - Lettre_3
   layers:
   - Default
   - TransparentFX
