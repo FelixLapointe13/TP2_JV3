@@ -4,9 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Lettre_1
-  - Lettre_2
-  - Lettre_3
+  - enveloppe_1
+  - socket_1
+  - EveryScene
   layers:
   - Default
   - TransparentFX
@@ -19,6 +19,7 @@ TagManager:
   - 
   - 
   - 
+  
   - 
   - 
   - 
