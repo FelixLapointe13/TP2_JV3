@@ -105,6 +105,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.48096645, y: 1.9851006, z: 0.42781204}
   m_Center: {x: 0.000000007450581, y: 0, z: 0.004919134}
+--- !u!1 &3525358766709140960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3410674199509913109}
+  m_Layer: 0
+  m_Name: Attach
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3410674199509913109
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3525358766709140960}
+  m_LocalRotation: {x: 0.3088328, y: 0.14066254, z: -0.015933802, w: -0.9405225}
+  m_LocalPosition: {x: 0.000052000236, y: -0.0009939998, z: -0.00019599925}
+  m_LocalScale: {x: 0.9381304, y: 0.9381304, z: 0.93813}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 871420985459719386}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 183.721, y: 44.602005, z: 81.545}
 --- !u!1 &5928309595528757938
 GameObject:
   m_ObjectHideFlags: 0
@@ -116,7 +147,7 @@ GameObject:
   - component: {fileID: 871420985459719386}
   m_Layer: 0
   m_Name: Casier_2
-  m_TagString: Untagged
+  m_TagString: EveryScene
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -139,6 +170,7 @@ Transform:
   - {fileID: 5028810263976705989}
   - {fileID: 5745334235247529317}
   - {fileID: 5934638334117501237}
+  - {fileID: 3410674199509913109}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 31.468994, z: 0}
@@ -245,47 +277,22 @@ MonoBehaviour:
     m_Bits: 4294967295
   m_InteractionLayers:
     m_Bits: 4
-  m_AttachTransform: {fileID: 0}
+  m_AttachTransform: {fileID: 3410674199509913109}
   m_KeepSelectedTargetValid: 1
   m_DisableVisualsWhenBlockedInGroup: 1
   m_StartingSelectedInteractable: {fileID: 0}
   m_StartingTargetFilter: {fileID: 0}
   m_HoverEntered:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 5046767930764566378}
-        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
-        m_MethodName: set_material
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2100000, guid: 2a7d985c9dcc64c35b29ccbc86d58261,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   m_HoverExited:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 5046767930764566378}
-        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
-        m_MethodName: set_material
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2100000, guid: 12ae5bf82d07747d682fe8f3ce1be637,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 4666242515170194431, guid: 2895d686fd4284e18977d5f039faaaa0,
+          type: 3}
         m_TargetAssemblyTypeName: EnveloppeScript, Assembly-CSharp
         m_MethodName: OnSelectEntered
         m_Mode: 2
@@ -301,7 +308,8 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 4666242515170194431, guid: 2895d686fd4284e18977d5f039faaaa0,
+          type: 3}
         m_TargetAssemblyTypeName: EnveloppeScript, Assembly-CSharp
         m_MethodName: OnSelectExited
         m_Mode: 2

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - enveloppe_1
   - socket_1
+  - EveryScene
   layers:
   - Default
   - TransparentFX
