@@ -7,6 +7,10 @@ public class UIScoreScript : MonoBehaviour
 
     private int score = 0;
 
+    private void Start() {
+         UpdateScoreText();
+    }
+
     public void IncreaseScore()
     {
         score++;
