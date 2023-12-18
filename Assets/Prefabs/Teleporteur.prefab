@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 469359003194102590}
   - component: {fileID: 8400455167700357788}
   - component: {fileID: 5109284471575863904}
+  - component: {fileID: 6345095388197101637}
+  - component: {fileID: 4577215013294346324}
   m_Layer: 0
   m_Name: Teleporteur
   m_TagString: Untagged
@@ -107,3 +109,30 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!114 &6345095388197101637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7357262055781317062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 897080163fbf34d82b1dab1862a0662d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagToPreserve: EveryScene
+--- !u!114 &4577215013294346324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7357262055781317062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79e798e94ec47458686d99d8e54165be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: Scene02
+  sceneChanger: {fileID: 6345095388197101637}
