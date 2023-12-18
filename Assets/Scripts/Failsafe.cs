@@ -22,7 +22,7 @@ public class Failsafe : MonoBehaviour
 
         positionJoueur = joueur.transform.position.y;
 
-        if(positionJoueur <= -4){
+        if(positionJoueur <= -50){
 
             positionJoueur = 2;
 

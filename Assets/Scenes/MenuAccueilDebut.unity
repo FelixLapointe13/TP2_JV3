@@ -2680,6 +2680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e7016e393dfad447b75fa22f8cdb886, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tagToPreserve: EveryScene
 --- !u!4 &1144890062
 Transform:
   m_ObjectHideFlags: 0
