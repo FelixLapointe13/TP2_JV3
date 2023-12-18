@@ -3,8 +3,6 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
-
-    public string tagToPreserve = "EveryScene";
     // Méthode pour charger une nouvelle scène par son index dans les Build Settings
     public void LoadSceneByIndex(int sceneIndex)
     {
@@ -26,17 +24,7 @@ public class LevelManager : MonoBehaviour
     {
         Debug.Log("Level Completed!");
 
-        // Récupérer tous les objets préservés avec le tag "EveryScene"
-        GameObject[] preservedObjects = GameObject.FindGameObjectsWithTag(tagToPreserve);
-SceneManager.LoadScene("MenuAccueilFin");
-        // Détruire les objets préservés
-        foreach (GameObject obj in preservedObjects)
-        {
-            Destroy(obj);
-        }
-
-        // Changer de scène après la destruction
-        
+        // Charger la scène avec l'index 1
+        LoadSceneByIndex(1);
     }
 }
-
